@@ -2,7 +2,10 @@
 // alert ("dadi")
 
 const lanciaBtnElem = document.getElementById ("lancia");
-console.log ("lanciaBtnElem")
+console.log (lanciaBtnElem);
+
+lanciaBtnElem.addEventListener("click", function () {
+
 
 const numPlayer =Math.floor(Math.random() *6) + 1;
 console.log (numPlayer);
@@ -36,7 +39,7 @@ document.getElementById ("result").innerHTML = result;
 
 
 
-
+})
 
 
 
